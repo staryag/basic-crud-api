@@ -1,19 +1,36 @@
 {
-  "compileOnSave": false,
     "compilerOptions": {
-      "module": "commonjs",
-      "outDir": "./dist",
-      "sourceMap": true,
-      "declaration": false,
-      "moduleResolution": "node",
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "target": "es2022",
-      "typeRoots": [
-        "node_modules/@types" 
-      ],
-      "lib": [
-        "ES2022"
-      ]
-    }
-  }
+        "target": "es5",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "types": [
+            "express",
+            "inversify",
+            "mocha",
+            "reflect-metadata"
+        ],
+        "sourceMap": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "allowJs": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "strictNullChecks": true,
+        "declaration": true,
+        "outDir": "./dist",
+        "sourceRoot": "./src",
+        "skipLibCheck": true
+    },
+    "exclude": [
+        "src/test",
+        "node_modules",
+        "dist"
+    ]
+}
