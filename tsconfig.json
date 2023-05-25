@@ -7,9 +7,7 @@
         ],
         "types": [
             "express",
-            "inversify",
-            "mocha",
-            "reflect-metadata"
+            "inversify"
         ],
         "sourceMap": true,
         "module": "commonjs",
@@ -21,7 +19,6 @@
         "emitDecoratorMetadata": true,
         "noImplicitAny": true,
         "preserveConstEnums": true,
-        "suppressImplicitAnyIndexErrors": true,
         "strictNullChecks": true,
         "declaration": true,
         "outDir": "./dist",
